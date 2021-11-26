@@ -1,0 +1,124 @@
+body{
+    background-color: white;
+    line-height: 1.5;
+    color: black;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+img{
+    max-width: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo-text{
+    font-size: 2rem;
+}
+.menu{
+    display: flex;
+    gap: 50px;
+
+}
+.menu a{
+    text-decoration: none;
+    gap: 25px;
+    display: flex;
+    color: blue;
+
+}
+.banner{
+    text-align: center;
+    min-height: 50vh;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: silver;
+    
+}
+.input-text{
+    padding: 0.5rem;
+}
+.btn{
+    margin-top: 2rem;
+}
+.btn a{
+    border: 2px solid yellow;
+    text-decoration: none;
+    padding: 0.5rem;
+    background-color: yellow;
+    
+}
+
+.features{
+    display: flex;
+    gap: 70px;
+
+}
+.how-it-works{
+    text-align: center;
+}
+.pricings{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    gap: 2%;
+    
+    
+    
+}
+
+
+
+.card{
+    
+    border: 1px solid;
+    text-align: center;
+}
+.card h3{
+    background-color: lightgrey;
+    margin: 0;
+}
+
+.select a{
+    text-decoration: none;
+    border: 2px solid yellow;
+    background-color: yellow;
+    color: black;
+}
+
+.main-section{
+    margin-left: 19%;
+    margin-right: 15%;
+}
+
+.footer{
+   background-color: gray;
+  padding: 1rem;
+   text-align: right;
+   margin-top: 4rem;
+   
+}
+.footer a{
+    text-decoration: none;
+    
+}
+
+.primary-footer{
+    display: flex;
+    gap: 50px;
+    margin-top: 2rem;
+    align-items: flex-end;
+}
+.primary-footer a{
+text-decoration: none;
+color: black;
+}
+
+
